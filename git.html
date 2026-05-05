@@ -1,28 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Команда</title>
+    <link rel="stylesheet" href="navbar.css">
     <link href="git.css" rel="stylesheet" />
 </head>
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-brand">
+                <span class="navbar-brand-icon">🚀</span>
+                Project-Git
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a href="git.html" class="nav-link">Команда</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bob.html" class="nav-link">Олексій</a>
+                </li>
+                <li class="nav-item">
+                    <a href="dima.html" class="nav-link">Дмитро</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ira.html" class="nav-link">Ірина</a>
+                </li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TEAM CONTENT -->
     <h1 class="team">Наша команда</h1>
     <div class="team-box">
         <div class="dima">
-            <img class="image" src="dima.jpg">
+            <img class="image" src="dima.jpg" alt="Фото Дмитра">
             <a href="dima.html"><h2 class="name">Кучугурний Дмитро Олегович</h2></a>
         </div>
 
         <div class="ira">
-            <img class="image" src="ira.jpg">
+            <img class="image" src="ira.jpg" alt="Фото Ірини">
             <a href="ira.html"><h2 class="name">Патлань Ірина Віталіївна</h2></a>
         </div>
 
         <div class="leha">
-            <img class="image" src="leha.jpg">
+            <img class="image" src="leha.jpg" alt="Фото Олексія">
             <a href="bob.html"><h2 class="name">Бобошко Олексій Володимирович</h2></a>
         </div>
     </div>
+
+    <script src="navbar.js"></script>
 </body>
 </html>
