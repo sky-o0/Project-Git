@@ -1,15 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ira.css"> <!--  поменять css на свой, какой-то там -->
-    <title>Patlan Iryna</title>  <!--  проверить фамилию) -->
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="ira.css">
+    <title>Патлань Ірина</title>
 </head>
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-brand">
+                <span class="navbar-brand-icon">🚀</span>
+                Project-Git
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a href="git.html" class="nav-link">Команда</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bob.html" class="nav-link">Олексій</a>
+                </li>
+                <li class="nav-item">
+                    <a href="dima.html" class="nav-link">Дмитро</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ira.html" class="nav-link">Ірина</a>
+                </li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PROFILE CONTENT -->
     <h2 class="name">Патлань Ірина Віталіївна</h2>
 
-    <img class="image" src="ira.jpg">
-    <h2 class="info">18 років. Студентка Національного технічного університету "Дніпровська політехніка" на спеціальності F2"Інженерія програмного забезпечення"</h2> <!--  добавить что-то про себя, по желанию -->
+    <img class="image" src="ira.jpg" alt="Фото Ірини Патлань">
+    <h2 class="info">18 років. Студентка Національного технічного університету "Дніпровська політехніка" на спеціальності "Комп'ютерні науки". Творча особистість та важлива частина команди.</h2>
+
+    <script src="navbar.js"></script>
 </body>
 </html>
